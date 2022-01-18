@@ -7,6 +7,8 @@ import { connect } from 'react-redux';
 const MovieList = (props)=> {
     const movies = props.movies;
 
+    console.log(movies)
+
     return (
         <div className="col">
             <table className="table table-striped table-hover">
